@@ -1,10 +1,32 @@
 *{
   margin :0;
   padding:0;
+  font-family: sans-serif;
   box-sizing: border-box;
 }
-nav .li a:hover{
+h1{
+  text-align: center;
+  color: #ff0000;
+  padding: 50px;
+}
+nav{
+  background-color: lime;
+  display: grid;‪
+  place-items:center;
+}
+nav u1 li{
+  text-decoration: underline;
+}
+nav u1 a{
+  display: inline-grid;
+  padding: 20px;
   text-decoration: none;
-  color:#fff000;
+  color: #000;
+  transition: 0.1s ease-in;
+  font-size: 20px;
+}
+nav u1 a:hover{
+  background-color: green;
+  color: white;
 
 }
